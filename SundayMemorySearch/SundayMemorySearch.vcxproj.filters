@@ -13,57 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="MainLogic">
-      <UniqueIdentifier>{2faa95e9-042d-40ee-976a-a2c71c440bda}</UniqueIdentifier>
+    <Filter Include="SundaySearch">
+      <UniqueIdentifier>{292b827c-e1d6-4132-8816-062396e4b04d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="netease_music_lyric_translation.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="netease_music_lyric_translationDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="sunday.h">
+      <Filter>SundaySearch</Filter>
     </ClInclude>
-    <ClInclude Include="MainActivity.h">
-      <Filter>MainLogic</Filter>
+    <ClInclude Include="MemorySearch.h">
+      <Filter>SundaySearch</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="netease_music_lyric_translation.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="netease_music_lyric_translationDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MainActivity.cpp">
-      <Filter>MainLogic</Filter>
+    <ClCompile Include="SundayMemorySearch.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="neteasemusiclyrictranslation.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\neteasemusiclyrictranslation.rc2">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\netease_music_lyric_translation.ico">
-      <Filter>资源文件</Filter>
-    </Image>
+    <ClCompile Include="sunday.cpp">
+      <Filter>SundaySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="MemorySearch.cpp">
+      <Filter>SundaySearch</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

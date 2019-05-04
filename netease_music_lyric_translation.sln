@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netease_music_lyric_translation", "netease_music_lyric_translation\netease_music_lyric_translation.vcxproj", "{DEAADAFD-F03C-4BD6-98E1-DA85FE32490F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsideDLL", "InsideDLL\InsideDLL.vcxproj", "{2AE3B479-074C-455C-8CB7-0470B783C2DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SundayMemorySearch", "SundayMemorySearch\SundayMemorySearch.vcxproj", "{2A079505-1374-4C74-837D-294A6FEC165F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{DEAADAFD-F03C-4BD6-98E1-DA85FE32490F}.Release|x64.Build.0 = Release|x64
 		{DEAADAFD-F03C-4BD6-98E1-DA85FE32490F}.Release|x86.ActiveCfg = Release|Win32
 		{DEAADAFD-F03C-4BD6-98E1-DA85FE32490F}.Release|x86.Build.0 = Release|Win32
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Debug|x64.ActiveCfg = Debug|x64
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Debug|x64.Build.0 = Debug|x64
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Debug|x86.Build.0 = Debug|Win32
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Release|x64.ActiveCfg = Release|x64
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Release|x64.Build.0 = Release|x64
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Release|x86.ActiveCfg = Release|Win32
+		{2AE3B479-074C-455C-8CB7-0470B783C2DD}.Release|x86.Build.0 = Release|Win32
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Debug|x64.ActiveCfg = Debug|x64
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Debug|x64.Build.0 = Debug|x64
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Debug|x86.Build.0 = Debug|Win32
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Release|x64.ActiveCfg = Release|x64
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Release|x64.Build.0 = Release|x64
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Release|x86.ActiveCfg = Release|Win32
+		{2A079505-1374-4C74-837D-294A6FEC165F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
