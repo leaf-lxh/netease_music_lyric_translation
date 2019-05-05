@@ -52,5 +52,5 @@ public:
 	参数：pattern      | 欲搜索的特征
 	返回：符合条件的内存地址，查询失败vector.size==0
 	*/
-	std::vector<DWORD_PTR> SearchArray(DWORD_PTR startAddress, DWORD_PTR stopAddress, std::vector<char> pattern);
+	std::vector<DWORD_PTR> SearchArray(DWORD_PTR processID, DWORD_PTR startAddress, DWORD_PTR stopAddress, std::vector<char> pattern);
 };
